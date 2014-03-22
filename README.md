@@ -3,6 +3,7 @@
 	Copyright (c) 2014, Suryakant Sawant, suryakant54321@gmail.com
 	For terms of use please refer to license document.
 /**************************************************************************************
+
 phpISTSOSClient
 This is first release of PHP based client for IST Sensor Observation Service (SOS). 
 The details about its use and functionality are described in section A and B. 

@@ -1,0 +1,83 @@
+/**************************************************************************************
+	htmlDatePicker CSS file
+	
+	Feel Free to change the fonts, sizes, borders, and colours of any of these elements
+***************************************************************************************/
+/* The containing DIV element for the Calendar */
+#dpCalendar {
+	display: none;					/* Important, do not change */
+	position: absolute;				/* Important, do not change */
+	background-color: #eeeeee;
+	color: black;
+	font-size: xx-small;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width: 150px;
+}
+/* The table of the Calendar */
+#dpCalendar table {
+	border: 1px solid black;
+	background-color: #eeeeee;
+	color: black;
+	font-size: xx-small;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	width: 100%;
+}
+/* The Next/Previous buttons */
+#dpCalendar .cellButton {
+	background-color: #ddddff;
+	color: black;
+}
+/* The Month/Year title cell */
+#dpCalendar .cellMonth {
+	background-color: #ddddff;
+	color: black;
+	text-align: center;
+}
+/* Any regular day of the month cell */
+#dpCalendar .cellDay {
+	background-color: #ddddff;
+	color: black;
+	text-align: center;
+}
+/* The day of the month cell that is selected */
+#dpCalendar .cellSelected {
+	border: 1px solid red;
+	background-color: #ffdddd;
+	color: black;
+	text-align: center;
+}
+/* The day of the month cell that is Today */
+#dpCalendar .cellToday {
+	background-color: #ddffdd;
+	color: black;
+	text-align: center;
+}
+/* The day of the month cell that is inside a valid Range */
+#dpCalendar .cellRange {
+	background-color: #ffccff;
+	color: black;
+	text-align: center;
+}
+/* Any cell in a month that is unused (ie: Not a Day in that month) */
+#dpCalendar .unused {
+	background-color: transparent;
+	color: black;
+}
+/* The Cancel/No Date button */
+#dpCalendar .cellCancel {
+	background-color: #cccccc;
+	color: black;
+	border: 1px solid black;
+	text-align: center;
+}
+/* The text inside the Cancel/No Date button */
+#dpCalendar .cellCancel a {
+	display: block;
+}
+/* The clickable text inside the calendar */
+#dpCalendar a {
+	text-decoration: none;
+	background-color: transparent;
+	color: blue;
+	display: block;
+}

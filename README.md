@@ -1,11 +1,3 @@
-/**************************************************************************************
-
-phpISTSOSClient Version 0.1
-Copyright (c) 2014, Suryakant Sawant, suryakant54321@gmail.com
-For terms of use please refer to license document.
-
-/**************************************************************************************
-
 phpISTSOSClient:
 ---------------------------
 
@@ -13,12 +5,14 @@ This is first release of PHP based client for IST Sensor Observation Service (SO
 The details about its use and functionality are described in section A and B.
 The client installation and configurations for Windows and Linux described in section C, D and E respectively.
 
-1. Prerequisits
+1. Prerequisits:
+---------------------------
   1. The most important prequisits are;
      a. Installed one of these "WAMPP / XAMPP / LAMPP" apache http server. The installation of database is not required. 
 	 b. PHP XMLReader class / module (Refer: http://www.php.net/manual/en/book.xmlreader.php)
 
-2. Capabilities 
+2. Capabilities: 
+---------------------------
 A. What this client is capable of ?
   1. This is basic PHP implementation for accessing istSOS server through http get requests.
   2. It is tested on Windows platform; it may also work on Linux platform.
@@ -33,8 +27,8 @@ B. What this client can't do?
   1. Presently it is not interoperable with 52 North SOS, as some of the xml formats and GET / POST components described by istSOS and 52North differ at few places. In future I will resolve this issue. 
   2. The client cannot show map based sensor observations. This idea / module is under development and may be added in next version of phpISTSOSClient.
 
-3. Installation
-
+3. Installation:
+---------------------------
 C. How to install in Windows-Apache environment?
   1. Create directory on web server
   2. Paste / extract all files and dirs. Note: do not change the client folder names 
@@ -52,4 +46,3 @@ E. How to configure PHP_istSOS_Client
   1. Modify settings.php file from includes directory
   2. Modify variable content of section 1. "Overall service configurations"
 
-/**************************************************************************************

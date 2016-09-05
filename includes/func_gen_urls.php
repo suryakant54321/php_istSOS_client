@@ -1,4 +1,9 @@
-﻿<?php
+<?php
+//----------------------------------------------------------
+// Author: Suryakant Sawant
+// Date of last update: 05 Sept. 2016 
+// Objective: Functions to generate URL's.
+//----------------------------------------------------------
 // func_gen_urls.php
 include_once('settings.php');
 //*************************************************

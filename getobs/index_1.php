@@ -1,4 +1,9 @@
 ﻿<?php
+//----------------------------------------------------------
+// Author: Suryakant Sawant
+// Date of last update: 05 Sept. 2016 
+// Objective: Read SOS URL's from settings as list. Index page.
+//----------------------------------------------------------
 echo "<html>";
 echo "<head>
 	<meta charset='utf-8'>
@@ -22,8 +27,8 @@ include_once('../includes/all_html.php');
 //
 echo "<form method='post' action='".$phpSelf."' class='modURL'>
 		<select name='kurl' >
-			<option  value='".$ServiceURL."' >'".$SOS_NAME_1."'</option>
-			<option  value='".$OtherService."' >'".$SOS_NAME_2."'</option>			
+			<option  value='".$ServiceURL."' >".$SOS_NAME_1."</option>
+			<option  value='".$OtherService."' >".$SOS_NAME_2."</option>			
 		</select>
 		<input type='submit' value='Get URL'/>
 		</form>";

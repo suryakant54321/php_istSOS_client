@@ -1,4 +1,9 @@
 ﻿<?php
+//----------------------------------------------------------
+// Author: Suryakant Sawant
+// Date of last update: 05 Sept. 2016 
+// Objective: Output observation data as CSV file
+//----------------------------------------------------------
 $data = $_POST['dataSend'];
 $filename = $_POST['FileName'];
 header("Content-type: text/csv");

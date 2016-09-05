@@ -1,4 +1,9 @@
-﻿<?PHP
+<?PHP
+//----------------------------------------------------------
+// Author: Suryakant Sawant
+// Date of last update: 05 Sept. 2016 
+// Objective: Function to plot gauge/ meters.
+//----------------------------------------------------------
 function PlotGauges($data){
 	// function to plot thermometer
 	function plotThermo($thermoName, $thermoWidth, $thermoHeight, $thermoMin, $thermoMax, $thermoValue){

@@ -1,4 +1,9 @@
 ﻿<?php
+//----------------------------------------------------------
+// Author: Suryakant Sawant
+// Date of last update: 05 Sept. 2016 
+// Objective: GetObservation as single file. Useful for debug.
+//----------------------------------------------------------
 echo "<html>";
 echo "<head>
 	<meta charset='utf-8'>

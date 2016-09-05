@@ -1,4 +1,9 @@
 ﻿<?php
+//----------------------------------------------------------
+// Author: Suryakant Sawant
+// Date of last update: 05 Sept. 2016 
+// Objective: Script to list and select observed properties. 
+//----------------------------------------------------------
 echo "<html>";
 echo "<head>
 	<meta charset='utf-8'>
@@ -29,7 +34,7 @@ if (isset($_POST['userurl'])){
 	//1. GetCapabilities
 	$getCstring = '';
 	//
-	echo "<p><b> Select Sensors to View Observations </b></p>";
+	//echo "<p><b> Select Sensors to View Observations </b></p>";
 	// use post_data function to post xml string and catch response
 	$output = post_data($myCapURL, $getCstring);
 	if ($output){

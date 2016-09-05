@@ -1,4 +1,10 @@
 ﻿<?PHP
+//----------------------------------------------------------
+// Author: Suryakant Sawant
+// Date of last update: 05 Sept. 2016 
+// Objective: Service information output page.
+// Note: Some of the part is hard coded.
+//----------------------------------------------------------
 echo "<html>";
 echo "<body>";
 echo "<div align='center'>";

@@ -6,7 +6,7 @@
 </frameset>
 	
 <body>
-	<div align='center'><h1>PHP istSOS Client</h1></div>
+	<div align='center'><h1>PHP ISTSOS Client</h1></div>
 </body>
 
 </html>

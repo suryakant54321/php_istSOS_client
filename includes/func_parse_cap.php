@@ -1,4 +1,9 @@
 <?php
+//----------------------------------------------------------
+// Author: Suryakant Sawant
+// Date of last update: 05 Sept. 2016 
+// Objective: Functions to parse GetCapabilities response XML.
+//----------------------------------------------------------
 include_once('settings.php');
 //1. gives output array of all bounding box lat and lon 
 function cap_parse_LL($output){
@@ -192,7 +197,7 @@ function SplitObsProp($myObservedProperty){
 	}
 	return $outObsProp;
 }
-// 13
+// 13 Hard Coaded
 function realignSensors($mySplitObsProp){
 	$myReAlignOut = array();
 	

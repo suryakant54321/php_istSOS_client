@@ -11,6 +11,7 @@ echo "<div align='center'>
 	  <ul> Module 2. <a href='descsen/index.php' target='right'> Describe Sensors </a></ul>
 	  <ul> Module 3. <a href='getobs/index.php' target='right'> Get Observations </a></ul>
 	  <ul> Module 4. <a href='dashboard/index.php' target='right'> Service Dashboard </a></ul>
+	  <ul> Module 5. <a href='getdataMap/index.php' target='right'> Map Visualization </a></ul>
 	  </h3>";
 echo "</body>
 	  </html>";

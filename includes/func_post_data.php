@@ -1,4 +1,9 @@
 <?PHP
+//----------------------------------------------------------
+// Author: Suryakant Sawant
+// Date of last update: 05 Sept. 2016 
+// Objective: Function to handle get / post request.
+//----------------------------------------------------------
 include_once('settings.php');
 //
 function post_data($url, $xml_string){

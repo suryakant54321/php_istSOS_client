@@ -1,4 +1,9 @@
 ﻿<?php
+//----------------------------------------------------------
+// Author: Suryakant Sawant
+// Date of last update: 05 Sept. 2016 
+// Objective: Script to list and select service processes.
+//----------------------------------------------------------
 echo "<html>";
 echo "<body>";
 echo "<div align='center'>";
@@ -24,7 +29,7 @@ if (isset($_POST['userurl'])){
 	//1. GetCapabilities
 	$getCstring = '';
 	//
-	echo "<h2> The Details of Sensors in SOS </h2>";
+	//echo "<h2> The Details of Sensors in SOS </h2>";
 	// use post_data function to post xml string and catch response
 	$output = post_data($myCapURL, $getCstring);
 	if ($output){

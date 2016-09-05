@@ -1,4 +1,9 @@
-﻿<?PHP
+<?PHP
+//----------------------------------------------------------
+// Author: Suryakant Sawant
+// Date of last update: 05 Sept. 2016 
+// Objective: Functions to parse GetObservation response XML.
+//----------------------------------------------------------
 include_once('settings.php');
 //a. 
 function parse_GetObs($output){

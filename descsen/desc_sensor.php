@@ -1,4 +1,9 @@
 ﻿<?php
+//----------------------------------------------------------
+// Author: Suryakant Sawant
+// Date of last update: 05 Sept. 2016 
+// Objective: Complete describe sensor script. useful for debug.
+//----------------------------------------------------------
 echo "<html>";
 echo "<body>";
 echo "<div align='center'>";

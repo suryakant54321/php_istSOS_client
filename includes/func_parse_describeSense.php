@@ -1,4 +1,9 @@
-﻿<?php
+<?php
+//----------------------------------------------------------
+// Author: Suryakant Sawant
+// Date of last update: 05 Sept. 2016 
+// Objective: Functions to parse DescribeSensor response XML.
+//----------------------------------------------------------
 include_once('settings.php');
 //a. gives output array of all Quantaties and their values 
 function parse_describeSense($output, $reference){

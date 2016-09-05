@@ -1,5 +1,5 @@
 # phpISTSOSClient / PHP-ISTSOS-Client
----------------------------
+
 
 This is improved release of PHP based client for IST Sensor Observation Service [(ISTSOS)].
 Sensor Observation Service [SOS] standards are provided by Open Geospatial Consortium [OGC].  
@@ -91,27 +91,33 @@ Ubuntu 12.04 with PHP-5.5, Windows xp / 7 / 10 using [ms4w]
 - Refer [sos-js] a JavaScript library to browse, visualise, and access, data from an Open Geospatial Consortium (OGC) Sensor Observation Service (SOS). Designed by [52°North].
 
 
-#### Snapshots
+### Snapshots
 
+#### Snapshot of service information module
 
 ![Snapshot 1](https://raw.githubusercontent.com/suryakant54321/php_istSOS_client/master/snapshots/serviceInfo.PNG)
 
+#### Snapshot of describe sensor module
 
 ![Snapshot 2](https://raw.githubusercontent.com/suryakant54321/php_istSOS_client/master/snapshots/descSensor.PNG)
 
+#### Snapshot of GetObservation module
 
 ![Snapshot 3](https://raw.githubusercontent.com/suryakant54321/php_istSOS_client/master/snapshots/getObs1.PNG)
 
 
 ![Snapshot 4](https://raw.githubusercontent.com/suryakant54321/php_istSOS_client/master/snapshots/getObs2.PNG)
 
+#### Snapshot of dashboard module
 
 ![Snapshot 5](https://raw.githubusercontent.com/suryakant54321/php_istSOS_client/master/snapshots/dashboard.PNG)
 
+#### Snapshot of map visualization module
 
 ![Snapshot 6](https://raw.githubusercontent.com/suryakant54321/php_istSOS_client/master/snapshots/sensorMap.PNG)
 
-#### TODO
+
+### TODO
 
 1. Write detailed documentation using [Sphinix].
 
